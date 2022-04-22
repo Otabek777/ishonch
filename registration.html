@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="slick/slick/slick.css">
+    <link rel="stylesheet" href="slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title></title>
+</head>
+<body>
+    <!-- MODAL -->
+    <div class="modal_login">
+        <div class="modal__box">
+            <h4>Вход</h4>
+            <form action="">
+                <input type="text" placeholder="Ваш телефон или почта">
+                <input type="password" placeholder="Пароль">
+                <span>
+                    <a class="" href="#">Забыли пароль?</a>
+                </span>
+                <div class="padding"></div>
+                <a href="#" class="form-btn">Регистрация</a>
+                <button class="form-btn2">Войти</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal_registration">
+        <div class="modal__box">
+            <h4>Регистрация</h4>
+            <form action="">
+                <input type="text" placeholder="Ваш телефон или почта">
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваше фамилия">
+                <input type="password" placeholder="Пароль">
+                <input type="password" placeholder="Повторить пароль">
+                <div class="padding"></div>
+                <button class="form-btn2">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal_review">
+        <div class="modal__box">
+            <h4>Оставить отзыв</h4>
+            <span>Сколько звезд?</span>
+            <div class="rating-area">
+                <input type="radio" id="star-5" name="rating" value="5">
+                <label for="star-5" title="Оценка «5»"></label>	
+                <input type="radio" id="star-4" name="rating" value="4">
+                <label for="star-4" title="Оценка «4»"></label>    
+                <input type="radio" id="star-3" name="rating" value="3">
+                <label for="star-3" title="Оценка «3»"></label>  
+                <input type="radio" id="star-2" name="rating" value="2">
+                <label for="star-2" title="Оценка «2»"></label>    
+                <input type="radio" id="star-1" name="rating" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+            </div>
+            <form action="">
+                <textarea placeholder="Достоинства"></textarea>
+                <textarea placeholder="Недостатки"></textarea>
+                <textarea placeholder="Комментарии"></textarea>
+                <button class="form-btn2">Оставить отзыв</button>
+            </form>
+        </div>
+    </div>
+    <!-- Header -->
+    <div class="header_mobile">
+        <button id="close-menu">
+            <span></span>
+            <span></span>
+        </button>
+        <div class="header_mobile_block">
+            <form action="" class="header__search">
+                <input type="text" placeholder="Search">
+                <button>
+                    <img src="img/search.svg" alt="">
+                </button>
+            </form>
+            <div class="header_mobile_box">
+                <a href="#">Телевизоры, аудио, видео</a>
+                <a href="#">Смартфоны и гаджеты</a>
+                <a href="#">Компьютеры и ноутбуки</a>
+                <a href="#">Техника для дома</a>
+                <a href="#">Техника для кухни</a>
+                <a href="#">Для дома и сада</a>
+                <a href="#">Для автомобиля</a>
+                <a href="#">Для детей и спорта</a>
+                <a href="#">Хит продаж</a>
+                <a href="#">Товары по акции</a>
+            </div>
+            <div class="header_mobile_box">
+                <a href="#">Телевизоры, аудио, видео</a>
+                <a href="#">Смартфоны и гаджеты</a>
+                <a href="#">Компьютеры и ноутбуки</a>
+                <a href="#">Техника для дома</a>
+                <a href="#">Техника для кухни</a>
+                <a href="#">Для дома и сада</a>
+                <a href="#">Для автомобиля</a>
+                <a href="#">Для детей и спорта</a>
+                <a href="#">Хит продаж</a>
+                <a href="#">Товары по акции</a>
+            </div>
+            <div class="header_mobile_bottom">
+                <a class="phone" href="#" style="margin-left: auto;">
+                    <img src="img/call.svg" alt="">    +99873 515 2222</a>
+                <a href="#">
+                    <img src="img/translate.svg" alt="">    Узбек тили</a>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__top">
+            <div class="con">
+                <select name="" id="">
+                    <option value="">г. Коканд, Ферганская обла</option>
+                    <option value="">г. Коканд, Ферганская обла</option>
+                </select>
+                <a href="#">Рассрочка</a>
+                <a href="#">Доставка</a>
+                <a href="#">
+                <img src="img/akc.svg" alt="">    Акции</a>
+                <a class="phone" href="#" style="margin-left: auto;">
+                <img src="img/call.svg" alt="">    +99873 515 2222</a>
+                <a href="#">
+                <img src="img/translate.svg" alt="">    Узбек тили</a>
+            </div>
+        </div>
+        <div class="header__center">
+            <div class="con">
+                <a href="#" class="header__logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <form action="" class="header__search">
+                    <input type="text" placeholder="Search">
+                    <button>
+                        <img src="img/search.svg" alt="">
+                    </button>
+                </form>
+                <div class="header__user">
+                    <a href="#">
+                        <img src="img/user1.svg" alt="">
+                        <p>Сравнить товары</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/user2.svg" alt="">
+                        <p>Избранное</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/user3.svg" alt="">
+                        <p>Корзина</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/user4.svg" alt="">
+                        <p>Войти</p>
+                    </a>
+                </div>
+                <button id="open-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="con">
+                <ul class="header__navbar">
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon1.svg" alt="">
+                            <p>Телевизоры, аудио, видео</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon2.svg" alt="">
+                            <p>Смартфоны и гаджеты</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon3.svg" alt="">
+                            <p>Компьютеры и ноутбуки</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon4.svg" alt="">
+                            <p>Техника для дома</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon5.svg" alt="">
+                            <p>Техника для кухни</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon6.svg" alt="">
+                            <p>Для дома и сада</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon7.svg" alt="">
+                            <p>Для автомобиля</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon8.svg" alt="">
+                            <p>Для детей и спорта</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon9.svg" alt="">
+                            <p>Хит продаж</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="header__navbar_item" href="#">
+                            <img src="img/icon10.svg" alt="">
+                            <p>Товары по акции</p>
+                        </a>
+                        <div class="header__sub">
+                            <div class="sub_box">
+                                <div class="sub__block">
+                                    <div class="sub__left">
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                        <div class="sub__item">
+                                            <h4>Смартфоны</h4>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <a href="#">Apple iPhone</a>
+                                            <span>
+                                                <a href="#">Все смартфоны ></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="sub__right">
+                                        <a href="#" class="popular__block">
+                                            <div class="img">
+                                                <img src="img/phone.png" alt="">
+                                            </div>
+                                            <h3>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h3>
+                                            <div class="popular__price">
+                                                <p>Общая цена:</p>
+                                                <h6>11 356 000 <span>UZS</span></h6>
+                                                <p>Взять в кредит:</p>
+                                                <h5>1 350 000 <span>UZS</span></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <div class="cart">
+            <div class="con">
+                <h2 class="product-h2">Оформить заказ <span id="product-open-filter">Filter</span></h2>
+                <div class="cart__box">
+                    <div class="cart__product reg">
+                        <form action="">
+                            <h5>Ваши данные</h5>
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Фамилия">
+                            <h5>Создайте аккаунт</h5>
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Фамилия">
+                            <input type="password" placeholder="Пвоторите пароль">
+                            <div class="line"></div>
+                            <h5>Способ оплаты</h5>
+                            <label class="cont">Оплата наличными
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="cont">Оплата картой 
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <h5>Способ доставки</h5>
+                            <input type="text" placeholder="Область">
+                            <input type="text" placeholder="Район">
+                            <input type="text" placeholder="Дополнительная информация">
+                            <input type="date" placeholder="Дата доставки">
+                            <label class="cont">Самовывоз
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="line"></div>
+                            <button>Оформить заказ</button>
+                            <label class="cont">Продолжая, я принимаю согласие на обработку моих персональных данных.
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </form>
+                    </div>
+                    <div class="cart__panel">
+                        <div class="cart__panel_box">
+                            <a href="#" class="cart__panel_link">
+                                <div class="img">
+                                    <img src="img/phone.png" alt="">
+                                </div>
+                                <div class="cart__panel_link_title">
+                                    <h5>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h5>
+                                    <p>11 356 000 <span>UZS</span></p>
+                                </div>
+                            </a>
+                            <a href="#" class="cart__panel_link">
+                                <div class="img">
+                                    <img src="img/phone.png" alt="">
+                                </div>
+                                <div class="cart__panel_link_title">
+                                    <h5>Смартфон Apple iPhone 12 128GB Blue (MGJE3RU/A)</h5>
+                                    <p>11 356 000 <span>UZS</span></p>
+                                </div>
+                            </a>
+                            <div class="cart__panel_delivery">
+                                <img src="img/cart.svg" alt="">
+                                <div class="cart__panel_delivery_text">
+                                    <span>Доставка</span>
+                                    <p>Бесплатно</p>
+                                </div>
+                            </div>
+                            <div class="cart__panel_price">
+                                <p>Итого</p>
+                                <h5>1 350 000 <span>UZS</span></h5>
+                            </div>
+                            <button>Оформить заказ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="con">
+            <div class="footer__box">
+                <div class="footer__left">
+                    <a href="#" class="footer__phone">
+                        <img src="img/call.svg" alt="">
+                        +99873 515 2222
+                    </a>
+                    <p><span>© 2020. Все права защищены.</span> Ishonch Kredit Savdo является зарегистрированной торговыми маркой ООО “Ishonch Kredit Savdo”.</p>
+                    <p>При копировании информации с сайта, ссылка обязательна.</p>
+                    <div class="footer_soc">
+                        <a href="#">
+                            <img src="img/Telegram.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/Facebook.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/Instagram.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5>Категории</h5>
+                    <div class="footer__link">
+                        <a href="#">Медиа</a>
+                        <a href="#">Компьютеры и оргтехника</a>
+                        <a href="#">Для дома</a>
+                        <a href="#">Для кухни</a>
+                        <a href="#">Дом и сад</a>
+                        <a href="#">Автотовары</a>
+                        <a href="#">Спорт и дети</a>
+                        <a href="#">Хиты продаж</a>
+                        <a href="#">Новинки</a>
+                        <a href="#">Акции</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5>Информация</h5>
+                    <div class="footer__link">
+                        <a href="#">Рассрочка</a>
+                        <a href="#">Доставка</a>
+                        <a href="#">Акции</a>
+                        <a href="#">Вопросы и ответы</a>
+                    </div>
+                    <h5>Компания</h5>
+                    <div class="footer__link">
+                        <a href="#">О компании</a>
+                        <a href="#">Вакансии</a>
+                        <a href="#">Новости</a>
+                        <a href="#">Пресс-центр</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5>Контакты</h5>
+                    <div class="footer__link">
+                        <a href="#">Рассрочка</a>
+                        <a href="#">Канал Telegram</a>
+                        <a href="#">Telegram Бот</a>
+                        <a href="#">Что-то случилось с заказом? </a>
+                    </div>
+                    <h5>Правовые документы</h5>
+                    <div class="footer__link">
+                        <a href="#">Инвесторам и акционерам</a>
+                        <a href="#">Документы</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <h5>Бизнесу</h5>
+                    <div class="footer__link">
+                        <a href="#">Техника для вашей компании</a>
+                        <a href="#">Контакты и реквизиты</a>
+                        <a href="#">Тендеры</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="slick/slick/slick.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $('.banner__slider').slick({
+            centerMode: true,
+            centerPadding: '110px',
+            slidesToShow: 1,
+            responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+                }
+            }
+            ]
+        });
+
+        let filterBlock = document.querySelector('.cart__panel');
+        document.querySelector('#product-open-filter').addEventListener('click', function() {
+            filterBlock.classList.add('active');
+        });
+        window.onclick = function(e) {
+            if(e.target == filterBlock) {
+                filterBlock.classList.remove('active');
+            };
+        }
+    </script>
+</body>
+</html>

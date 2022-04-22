@@ -1,0 +1,197 @@
+@media screen and (max-width: 1280px) {
+    .card__box .popular__block {
+        width: 24.2%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+    .card__box .popular__block:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header__top, .header__nav, .header__search, .header__user a:nth-child(1), .header__user a:nth-child(2) {
+        display: none;
+    }
+    .header_mobile_block .header__search {
+        width: 90%;
+        display: flex;
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+    #open-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25px;
+        height: 20px;
+        margin-left: 32px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    #open-menu span {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+    }
+    .header {
+        padding: 0;
+    }
+    .header__user a {
+        margin-left: 24px;
+    }
+    .header__user a p {
+        display: none;
+    }
+    .header__user a img {
+        margin-right: 0;
+    }
+    .main {
+        padding-top: 80px;
+    }
+    .popular__block {
+        width: 32.5%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+    .popular__block:nth-child(4n) {
+        margin-right: 1%;
+    }
+    .popular__block:nth-child(3n) {
+        margin-right: 0;
+    }
+    .footer__box {
+        flex-direction: column;
+    }
+    .footer__left {
+        margin-bottom: 32px;
+    }
+
+    .product__right, .filter__left, .cart__panel {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        z-index: 999;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed; bottom: 0; left: 0; top: 0;
+        align-items: flex-end;        
+    }
+    .product__right_box, .filter__block, .cart__panel_box {
+        position: relative;
+        width: 100%;
+        height: 90%;
+        overflow-y: scroll;
+        padding-bottom: 200px;
+    }
+    .product__right.active, .filter__left.active, .cart__panel.active {
+        display: flex;
+    }
+    .product__left, .filter__box .popular__box, .cart__product, .cart__product.reg {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card__box .popular__block {
+        width: 32.6%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+    .card__box .popular__block:nth-child(4n) {
+        margin-right: 1%;
+    }
+    .card__box .popular__block:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .main h2 span {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .banner__box, .banner__block {
+        padding: 0;
+    }
+    .banner__text {
+        padding-left: 24px;
+    }
+    .popular__block, .filter__box  .popular__box .popular__block {
+        width: 49%;
+    }
+    .popular__block:nth-child(3n), .filter__box  .popular__box .popular__block:nth-child(3n) {
+        margin-right: 1%;
+    }
+    .popular__block:nth-child(2n), .filter__box  .popular__box .popular__block:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .card__box .popular__block {
+        width: 49%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+    }
+    .card__box .popular__block:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .product__left .product__box2 {
+        flex-direction: column;
+    }
+    .product__box2 .product__image, .product__box2 .product__description {
+        width: 100%;
+        padding: 0;
+    }
+    .product__box2 .product__description {
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cart__item {
+        padding: 12px;
+    }
+    .cart__item .cart__delete {
+        top: 12px; right: 12px;
+    }
+    .cart__item a .cart__title {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .popular__block, .filter__box  .popular__box .popular__block {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-bottom: 24px;
+    }
+    .header__logo img {
+        width: 150px;
+    }
+    .img_scroll {
+        padding: 0;
+    }
+    .img_scroll .images {
+        padding: 8px;
+    }
+    .card__box .popular__block {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-bottom: 24px;
+    }
+    .cart__item {
+        flex-direction: column;
+    }
+    .cart__item a {
+        flex-direction: column;
+    }
+    .cart__price {
+        margin-top: 12px;
+    }
+    .cart__item a .cart__title, .cart__price {
+        width: 100%;
+    }
+}
